@@ -45,7 +45,7 @@
 				<div class="container mt-0">
 					<div class="row breadcrumb-bar">
 						<div class="col-md-6">
-							<h3 class="block-title">近期活动管理</h3>
+							<h3 class="block-title">宠物资讯管理</h3>
 						</div>
 						<div class="col-md-6">
 							<ol class="breadcrumb">
@@ -54,8 +54,8 @@
 										<span class="ti-home"></span>
 									</a>
 								</li>
-								<li class="breadcrumb-item"><span>近期活动管理</span></li>
-								<li class="breadcrumb-item active"><span>近期活动列表</span></li>
+								<li class="breadcrumb-item"><span>宠物资讯管理</span></li>
+								<li class="breadcrumb-item active"><span>宠物资讯列表</span></li>
 							</ol>
 						</div>
 					</div>
@@ -70,7 +70,7 @@
 					<!-- Widget Item -->
 					<div class="col-md-12">
 						<div class="widget-area-2 lochana-box-shadow">
-							<h3 class="widget-title">近期活动列表</h3>							
+							<h3 class="widget-title">宠物资讯列表</h3>
 							<div class="table-responsive mb-3" id="tableDiv">
 								<div class="col-sm-12">
 									<label>

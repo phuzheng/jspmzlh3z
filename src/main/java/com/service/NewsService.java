@@ -12,7 +12,7 @@ import com.entity.view.NewsView;
 
 
 /**
- * 近期活动
+ * 宠物资讯
  *
  * @author 
  * @email 

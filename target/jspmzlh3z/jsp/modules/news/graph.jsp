@@ -49,7 +49,7 @@
 				<div class="container mt-0">
 					<div class="row breadcrumb-bar">
 						<div class="col-md-6">
-							<h3 class="block-title">近期活动统计</h3>
+							<h3 class="block-title">宠物资讯统计</h3>
 						</div>
 						<div class="col-md-6">
 							<ol class="breadcrumb">
@@ -58,8 +58,8 @@
 										<span class="ti-home"></span>
 									</a>
 								</li>
-								<li class="breadcrumb-item"><span>近期活动管理</span></li>
-								<li class="breadcrumb-item active"><span>近期活动统计</span></li>
+								<li class="breadcrumb-item"><span>宠物资讯管理</span></li>
+								<li class="breadcrumb-item active"><span>宠物资讯统计</span></li>
 							</ol>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 
 				// 指定图表的配置项和数据
 		var option = {
-			title: {text : '近期活动'},
+			title: {text : '宠物资讯'},
 			tooltip: {},
 			legend: {},
 			xAxis: {

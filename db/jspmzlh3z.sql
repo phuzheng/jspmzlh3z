@@ -386,7 +386,7 @@ CREATE TABLE `news` (
   `picture` varchar(200) NOT NULL COMMENT '图片',
   `content` longtext NOT NULL COMMENT '内容',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1615358944136 DEFAULT CHARSET=utf8 COMMENT='近期活动';
+) ENGINE=InnoDB AUTO_INCREMENT=1615358944136 DEFAULT CHARSET=utf8 COMMENT='宠物资讯';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

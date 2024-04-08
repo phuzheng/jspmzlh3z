@@ -36,7 +36,7 @@ import com.utils.CommonUtil;
 
 
 /**
- * 近期活动
+ * 宠物资讯
  * 后端接口
  * @author 
  * @email 
@@ -92,7 +92,7 @@ public class NewsController {
         EntityWrapper< NewsEntity> ew = new EntityWrapper< NewsEntity>();
  		ew.allEq(MPUtil.allEQMapPre( news, "news")); 
 		NewsView newsView =  newsService.selectView(ew);
-		return R.ok("查询近期活动成功").put("data", newsView);
+		return R.ok("查询宠物资讯成功").put("data", newsView);
     }
 	
     /**

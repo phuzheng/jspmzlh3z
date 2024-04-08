@@ -22,7 +22,7 @@ import com.baomidou.mybatisplus.enums.IdType;
 
 
 /**
- * 近期活动
+ * 宠物资讯
  * 数据库通用操作实体类（普通增删改查）
  * @author 
  * @email 

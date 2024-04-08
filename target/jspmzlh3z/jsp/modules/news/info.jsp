@@ -52,7 +52,7 @@
 				<div class="container mt-0">
 					<div class="row breadcrumb-bar">
 						<div class="col-md-6">
-							<h3 class="block-title">编辑近期活动</h3>
+							<h3 class="block-title">编辑宠物资讯</h3>
 						</div>
 						<div class="col-md-6">
 							<ol class="breadcrumb">
@@ -61,8 +61,8 @@
 										<span class="ti-home"></span>
 									</a>
 								</li>
-								<li class="breadcrumb-item"><span>近期活动管理</span></li>
-								<li class="breadcrumb-item active"><span>编辑近期活动</span></li>
+								<li class="breadcrumb-item"><span>宠物资讯管理</span></li>
+								<li class="breadcrumb-item active"><span>编辑宠物资讯</span></li>
 							</ol>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 					<!-- Widget Item -->
 					<div class="col-md-12">
 						<div class="widget-area-2 lochana-box-shadow">
-							<h3 class="widget-title">近期活动信息</h3>
+							<h3 class="widget-title">宠物资讯信息</h3>
 							<form id="addOrUpdateForm">
 								<div class="form-row">
 									<input id="updateId" name="id" type="hidden">
