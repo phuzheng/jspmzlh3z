@@ -77,7 +77,7 @@
 					<!-- Widget Item -->
 					<div class="col-md-12">
 						<div class="widget-area-2 lochana-box-shadow">
-							<h3 class="widget-title">宠物论坛信息</h3>
+							<h3 class="widget-title">宠物宠物论坛</h3>
 							<form id="addOrUpdateForm">
 								<div class="form-row">
 									<input id="updateId" name="id" type="hidden">

@@ -1,13 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page isELIgnored="true" %>
-<!-- 新闻资讯 -->
+<!-- 宠物资讯 -->
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>新闻资讯</title>
+		<title>宠物资讯</title>
 		<link rel="stylesheet" href="../../layui/css/layui.css">
 		<!-- 样式 -->
 		<link rel="stylesheet" href="../../css/style.css" />
@@ -33,7 +33,7 @@
 			<!-- 标题 -->
 			<h2 class="index-title">NEWS / INFORMATION</h2>
 			<div class="line-container">
-				<p class="line"> 新闻资讯 </p>
+				<p class="line"> 宠物资讯 </p>
 			</div>
 			<!-- 标题 -->
 

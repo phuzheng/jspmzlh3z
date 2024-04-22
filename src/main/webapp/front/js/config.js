@@ -70,11 +70,11 @@ var indexNav = [
 }, 
 
 {
-	name: '论坛信息',
+	name: '宠物论坛',
 	url: './pages/forum/list.jsp'
 }, 
 {
-	name: '新闻资讯',
+	name: '宠物资讯',
 	url: './pages/news/list.jsp'
 },
 ]

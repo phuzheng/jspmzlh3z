@@ -40,7 +40,7 @@ import com.utils.CommonUtil;
  * 后端接口
  * @author 
  * @email 
- * @date 2021-03-10 14:28:33
+ * @date 2024-03-10 14:28:33
  */
 @RestController
 @RequestMapping("/forum")
@@ -56,13 +56,39 @@ public class ForumController {
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,ForumEntity forum, HttpServletRequest request){
     	if(!request.getSession().getAttribute("role").toString().equals("管理员")) {
-    		forum.setUserid((Long)request.getSession().getAttribute("userId"));
-    	}
-
+    		forum.setUserid((Long)request.getSession().getAttribute("userId"));}
         EntityWrapper<ForumEntity> ew = new EntityWrapper<ForumEntity>();
     	PageUtils page = forumService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, forum), params), params));
 		request.setAttribute("data", page);
         return R.ok().put("data", page);
+    }
+//后端保存
+    @RequestMapping("/save")
+    public R save(@RequestBody ForumEntity forum, HttpServletRequest request){
+        forum.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
+        //ValidatorUtils.validateEntity(forum);
+        forum.setUserid((Long)request.getSession().getAttribute("userId"));
+        forumService.insert(forum);
+        return R.ok();
+    }
+    /**
+     * 修改
+     */
+    @RequestMapping("/update")
+    public R update(@RequestBody ForumEntity forum, HttpServletRequest request){
+        //ValidatorUtils.validateEntity(forum);
+        forumService.updateById(forum);//全部更新
+        return R.ok();
+    }
+
+
+    /**
+     * 删除
+     */
+    @RequestMapping("/delete")
+    public R delete(@RequestBody Long[] ids){
+        forumService.deleteBatchIds(Arrays.asList(ids));
+        return R.ok();
     }
     
     /**
@@ -146,18 +172,6 @@ public class ForumController {
 
 
 
-    /**
-     * 后端保存
-     */
-    @RequestMapping("/save")
-    public R save(@RequestBody ForumEntity forum, HttpServletRequest request){
-    	forum.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
-    	//ValidatorUtils.validateEntity(forum);
-    	forum.setUserid((Long)request.getSession().getAttribute("userId"));
-
-        forumService.insert(forum);
-        return R.ok();
-    }
     
     /**
      * 前端保存
@@ -172,25 +186,7 @@ public class ForumController {
         return R.ok();
     }
 
-    /**
-     * 修改
-     */
-    @RequestMapping("/update")
-    public R update(@RequestBody ForumEntity forum, HttpServletRequest request){
-        //ValidatorUtils.validateEntity(forum);
-        forumService.updateById(forum);//全部更新
-        return R.ok();
-    }
-    
 
-    /**
-     * 删除
-     */
-    @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] ids){
-        forumService.deleteBatchIds(Arrays.asList(ids));
-        return R.ok();
-    }
     
     /**
      * 提醒接口

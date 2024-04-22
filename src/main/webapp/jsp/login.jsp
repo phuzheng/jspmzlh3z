@@ -36,7 +36,7 @@
 		height: 100%;
 	}
 	body {
-				background-image: url(http://codegen.caihongy.cn/20210204/71f1b7556fbe48ac97eb3f579b9a4287.jpg) !important;
+				background-image: url(http://codegen.caihongy.cn/20240204/71f1b7556fbe48ac97eb3f579b9a4287.jpg) !important;
 				height: 100vh;
 		background-position: center center;
 		background-size: cover;

@@ -10,7 +10,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0">
-<title>新闻资讯</title>
+<title>宠物资讯</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="stylesheet" href="../../layui/css/layui.css">
@@ -97,7 +97,7 @@
             <div class="ng-inmod-the ng-container ng-bg-fff">
               <span class="ng-inmod-the-bg ng-inmod-the-bg-left" aos="fade-down-right"><img src="../../xznstatic/img/insie1.png" alt="" /></span>
               <span class="ng-inmod-the-bg ng-inmod-the-bg-right" aos="fade-up-left"><img src="../../xznstatic/img/insie2.png" alt="" /></span>
-              <span class="ng-inmod-the-cn" aos="fade-down">新闻资讯</span><span class="ng-inmod-the-en" aos="fade-up">News</span>
+              <span class="ng-inmod-the-cn" aos="fade-down">宠物资讯</span><span class="ng-inmod-the-en" aos="fade-up">News</span>
             </div>
             <span class="ng-inmod-thebor" aos="fade-up"></span></div>
           <div class="ng-inside-box ng-fault ng-container" aos="fade-up">

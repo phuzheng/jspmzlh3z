@@ -40,7 +40,7 @@ import com.utils.CommonUtil;
  * 后端接口
  * @author 
  * @email 
- * @date 2021-03-10 14:28:33
+ * @date 2024-03-10 14:28:33
  */
 @RestController
 @RequestMapping("/yonghu")
@@ -116,18 +116,6 @@ public class YonghuController {
         return R.ok("密码已重置为：123456");
     }
 
-
-    /**
-     * 后端列表
-     */
-    @RequestMapping("/page")
-    public R page(@RequestParam Map<String, Object> params,YonghuEntity yonghu, HttpServletRequest request){
-
-        EntityWrapper<YonghuEntity> ew = new EntityWrapper<YonghuEntity>();
-    	PageUtils page = yonghuService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, yonghu), params), params));
-		request.setAttribute("data", page);
-        return R.ok().put("data", page);
-    }
     
     /**
      * 前端列表
@@ -178,27 +166,41 @@ public class YonghuController {
         YonghuEntity yonghu = yonghuService.selectById(id);
         return R.ok().put("data", yonghu);
     }
-    
-
-
-
     /**
      * 后端保存
      */
+	/**
+	 * 后端列表
+	 */
+
+	@RequestMapping("/page")
+	public R page(@RequestParam Map<String, Object> params,YonghuEntity yonghu, HttpServletRequest request){
+		EntityWrapper<YonghuEntity> ew = new EntityWrapper<YonghuEntity>();
+		PageUtils page = yonghuService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, yonghu), params), params));
+		request.setAttribute("data", page);
+		return R.ok().put("data", page);
+	}
+	//后端保存
     @RequestMapping("/save")
     public R save(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
     	yonghu.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
     	//ValidatorUtils.validateEntity(yonghu);
     	YonghuEntity user = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("zhanghao", yonghu.getZhanghao()));
-		if(user!=null) {
-			return R.error("用户已存在");
-		}
-
+		if(user!=null) {return R.error("用户已存在");}
 		yonghu.setId(new Date().getTime());
         yonghuService.insert(yonghu);
-        return R.ok();
-    }
-    
+        return R.ok();}
+	//后端修改
+	@RequestMapping("/update")
+	public R update(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
+		//ValidatorUtils.validateEntity(yonghu);
+		yonghuService.updateById(yonghu);//全部更新
+		return R.ok();}
+	//后端删除
+	@RequestMapping("/delete")
+	public R delete(@RequestBody Long[] ids){
+		yonghuService.deleteBatchIds(Arrays.asList(ids));
+		return R.ok();}
     /**
      * 前端保存
      */
@@ -216,25 +218,7 @@ public class YonghuController {
         return R.ok();
     }
 
-    /**
-     * 修改
-     */
-    @RequestMapping("/update")
-    public R update(@RequestBody YonghuEntity yonghu, HttpServletRequest request){
-        //ValidatorUtils.validateEntity(yonghu);
-        yonghuService.updateById(yonghu);//全部更新
-        return R.ok();
-    }
-    
 
-    /**
-     * 删除
-     */
-    @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] ids){
-        yonghuService.deleteBatchIds(Arrays.asList(ids));
-        return R.ok();
-    }
     
     /**
      * 提醒接口

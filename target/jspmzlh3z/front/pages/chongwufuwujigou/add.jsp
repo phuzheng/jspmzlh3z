@@ -205,7 +205,7 @@
 					}
 				});
 
-                																vue.jigouleibie = '宠物店,宠物医院,宠物殡葬,宠物训练场'.split(',')
+                																vue.jigouleibie = '宠物店,宠物医院,宠物美容,宠物殡葬,宠物训练场'.split(',')
 																																								// 上传图片
 				var jigouzhaopianUpload = upload.render({
 					//绑定元素

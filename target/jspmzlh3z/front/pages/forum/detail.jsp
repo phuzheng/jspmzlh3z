@@ -32,7 +32,7 @@
 			<!-- 标题 -->
 			<h2 class="index-title">FORUM / INFORMATION</h2>
 			<div class="line-container">
-				<p class="line"> 论坛信息 </p>
+				<p class="line"> 宠物论坛 </p>
 			</div>
 			<!-- 标题 -->
 

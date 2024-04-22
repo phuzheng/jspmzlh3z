@@ -26,7 +26,7 @@ import com.baomidou.mybatisplus.enums.IdType;
  * 数据库通用操作实体类（普通增删改查）
  * @author 
  * @email 
- * @date 2021-03-10 14:28:33
+ * @date 2024-03-10 14:28:33
  */
 @TableName("address")
 public class AddressEntity<T> implements Serializable {

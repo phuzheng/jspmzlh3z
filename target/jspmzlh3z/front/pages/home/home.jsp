@@ -95,7 +95,7 @@
               <span class="ng-inmod-the-bg ng-inmod-the-bg-right" aos="fade-up-left">
                 <img src="../../xznstatic/img/insie2.png" />
               </span>
-              <span class="ng-inmod-the-cn" aos="fade-down">新闻资讯</span>
+              <span class="ng-inmod-the-cn" aos="fade-down">宠物资讯</span>
               <span class="ng-inmod-the-en" aos="fade-up">HOME NEWS</span>
             </div>
             <span class="ng-inmod-thebor" aos="fade-up"></span>
@@ -284,7 +284,7 @@
         siliaogoumaiList: [],
         chongwufuwujigouList: [],
         swiperList: [],
-        // 新闻资讯
+        // 宠物资讯
         newsList: [],
         leftNewsList: [],
         rightNewsList: [],
@@ -350,7 +350,7 @@
         }
       });
 
-      // 新闻资讯
+      // 宠物资讯
       http.request('news/list', 'get', {
         page: 1,
         limit: 3,

@@ -40,7 +40,7 @@ import com.utils.CommonUtil;
  * 后端接口
  * @author 
  * @email 
- * @date 2021-03-10 14:28:33
+ * @date 2024-03-10 14:28:33
  */
 @RestController
 @RequestMapping("/chongwubaike")
@@ -55,22 +55,41 @@ public class ChongwubaikeController {
      */
     @RequestMapping("/page")
     public R page(@RequestParam Map<String, Object> params,ChongwubaikeEntity chongwubaike, HttpServletRequest request){
-
         EntityWrapper<ChongwubaikeEntity> ew = new EntityWrapper<ChongwubaikeEntity>();
-    	PageUtils page = chongwubaikeService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, chongwubaike), params), params));
+    	PageUtils page = chongwubaikeService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, chongwubaike),
+                params), params));
 		request.setAttribute("data", page);
-        return R.ok().put("data", page);
+        return R.ok().put("data", page);}
+
+  //修改
+    @RequestMapping("/update")
+    public R update(@RequestBody ChongwubaikeEntity chongwubaike, HttpServletRequest request){
+        //ValidatorUtils.validateEntity(chongwubaike);
+        chongwubaikeService.updateById(chongwubaike);//全部更新
+        return R.ok();}
+//删除
+    @RequestMapping("/delete")
+    public R delete(@RequestBody Long[] ids){
+        chongwubaikeService.deleteBatchIds(Arrays.asList(ids));
+        return R.ok();
     }
-    
+  //保存
+    @RequestMapping("/save")
+    public R save(@RequestBody ChongwubaikeEntity chongwubaike, HttpServletRequest request){
+        chongwubaike.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
+        //ValidatorUtils.validateEntity(chongwubaike);
+        chongwubaikeService.insert(chongwubaike);
+        return R.ok();}
+
     /**
      * 前端列表
      */
-	@IgnoreAuth
+    @IgnoreAuth
     @RequestMapping("/list")
     public R list(@RequestParam Map<String, Object> params,ChongwubaikeEntity chongwubaike, HttpServletRequest request){
         EntityWrapper<ChongwubaikeEntity> ew = new EntityWrapper<ChongwubaikeEntity>();
-    	PageUtils page = chongwubaikeService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, chongwubaike), params), params));
-		request.setAttribute("data", page);
+        PageUtils page = chongwubaikeService.queryPage(params, MPUtil.sort(MPUtil.between(MPUtil.likeOrEq(ew, chongwubaike), params), params));
+        request.setAttribute("data", page);
         return R.ok().put("data", page);
     }
 
@@ -130,17 +149,7 @@ public class ChongwubaikeController {
         return R.ok("投票成功");
     }
 
-    /**
-     * 后端保存
-     */
-    @RequestMapping("/save")
-    public R save(@RequestBody ChongwubaikeEntity chongwubaike, HttpServletRequest request){
-    	chongwubaike.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
-    	//ValidatorUtils.validateEntity(chongwubaike);
 
-        chongwubaikeService.insert(chongwubaike);
-        return R.ok();
-    }
     
     /**
      * 前端保存
@@ -149,30 +158,11 @@ public class ChongwubaikeController {
     public R add(@RequestBody ChongwubaikeEntity chongwubaike, HttpServletRequest request){
     	chongwubaike.setId(System.currentTimeMillis() + (long) Math.floor(Math.random() * 1000));
     	//ValidatorUtils.validateEntity(chongwubaike);
-
         chongwubaikeService.insert(chongwubaike);
         return R.ok();
     }
 
-    /**
-     * 修改
-     */
-    @RequestMapping("/update")
-    public R update(@RequestBody ChongwubaikeEntity chongwubaike, HttpServletRequest request){
-        //ValidatorUtils.validateEntity(chongwubaike);
-        chongwubaikeService.updateById(chongwubaike);//全部更新
-        return R.ok();
-    }
-    
 
-    /**
-     * 删除
-     */
-    @RequestMapping("/delete")
-    public R delete(@RequestBody Long[] ids){
-        chongwubaikeService.deleteBatchIds(Arrays.asList(ids));
-        return R.ok();
-    }
     
     /**
      * 提醒接口
