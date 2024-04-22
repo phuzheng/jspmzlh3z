@@ -84,7 +84,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "spring.configuration.checksum": "8a0b9d00a1b5254d927b9f8ea55c5706",
     "vue.rearranger.settings.migration": "true"
   },
@@ -207,6 +207,7 @@
       <workItem from="1713498864638" duration="997000" />
       <workItem from="1713508636212" duration="5240000" />
       <workItem from="1713777125639" duration="1477000" />
+      <workItem from="1713778631778" duration="1840000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1712455769171</created>
