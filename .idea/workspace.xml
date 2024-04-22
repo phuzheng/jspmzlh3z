@@ -9,173 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ea2b6d5-c178-4ce5-a520-7571aae6749b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/1712759310297.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/jspmzlh3z.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/jspmzlh3z.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ChongwubaikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ChongwubaikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ChongwufuwujigouController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ChongwufuwujigouController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ChongwuleibieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ChongwuleibieController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DefaultuserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DefaultuserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DiscusschongwubaikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DiscusschongwubaikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DiscusschongwufuwujigouController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DiscusschongwufuwujigouController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/DiscusssiliaogoumaiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/DiscusssiliaogoumaiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ForumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/ForumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/SiliaogoumaiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/SiliaogoumaiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/SiliaozhongleiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/SiliaozhongleiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/StoreupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/StoreupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/YonghuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/YonghuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/AddressDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ChatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ChatDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ChongwubaikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ChongwubaikeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ChongwufuwujigouDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ChongwufuwujigouDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ChongwuleibieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ChongwuleibieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DefaultuserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DefaultuserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DiscusschongwubaikeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DiscusschongwubaikeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DiscusschongwufuwujigouDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DiscusschongwufuwujigouDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/DiscusssiliaogoumaiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/DiscusssiliaogoumaiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/ForumDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/ForumDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/NewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/SiliaogoumaiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/SiliaogoumaiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/SiliaozhongleiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/SiliaozhongleiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/StoreupDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/YonghuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/AddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/CartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/CartEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ChatEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ChatEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ChongwubaikeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ChongwubaikeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ChongwufuwujigouEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ChongwufuwujigouEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ChongwuleibieEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ChongwuleibieEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/DefaultuserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/DefaultuserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/DiscusschongwubaikeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/DiscusschongwubaikeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/DiscusschongwufuwujigouEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/DiscusschongwufuwujigouEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/DiscusssiliaogoumaiEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/DiscusssiliaogoumaiEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/ForumEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/ForumEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/NewsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/NewsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/OrdersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/OrdersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/SiliaogoumaiEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/SiliaogoumaiEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/SiliaozhongleiEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/SiliaozhongleiEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/StoreupEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/StoreupEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/YonghuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/YonghuEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/AddressModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/AddressModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/CartModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/CartModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/ChatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/ChatModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwubaikeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwubaikeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwufuwujigouModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwufuwujigouModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwuleibieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/ChongwuleibieModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/DefaultuserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/DefaultuserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusschongwubaikeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusschongwubaikeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusschongwufuwujigouModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusschongwufuwujigouModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusssiliaogoumaiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/DiscusssiliaogoumaiModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/ForumModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/ForumModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/NewsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/OrdersModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/OrdersModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/SiliaogoumaiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/SiliaogoumaiModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/SiliaozhongleiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/SiliaozhongleiModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/StoreupModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/StoreupModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/model/YonghuModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/model/YonghuModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/AddressView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/CartView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/ChatView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/ChatView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwubaikeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwubaikeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwufuwujigouView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwufuwujigouView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwuleibieView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/ChongwuleibieView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/DefaultuserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/DefaultuserView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusschongwubaikeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusschongwubaikeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusschongwufuwujigouView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusschongwufuwujigouView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusssiliaogoumaiView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/DiscusssiliaogoumaiView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/ForumView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/ForumView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/NewsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/NewsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/OrdersView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/OrdersView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/SiliaogoumaiView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/SiliaogoumaiView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/SiliaozhongleiView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/SiliaozhongleiView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/StoreupView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/StoreupView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/view/YonghuView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/view/YonghuView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/AddressVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/AddressVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/CartVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/CartVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChatVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChatVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwubaikeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwubaikeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwufuwujigouVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwufuwujigouVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwuleibieVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/ChongwuleibieVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/DefaultuserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/DefaultuserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusschongwubaikeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusschongwubaikeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusschongwufuwujigouVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusschongwufuwujigouVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusssiliaogoumaiVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/DiscusssiliaogoumaiVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/ForumVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/ForumVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/NewsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/NewsVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/OrdersVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/OrdersVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/SiliaogoumaiVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/SiliaogoumaiVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/SiliaozhongleiVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/SiliaozhongleiVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/StoreupVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/StoreupVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/vo/YonghuVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/vo/YonghuVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/CartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ChongwubaikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ChongwubaikeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ChongwufuwujigouService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ChongwufuwujigouService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ChongwuleibieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ChongwuleibieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DefaultuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/DefaultuserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DiscusschongwubaikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/DiscusschongwubaikeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DiscusschongwufuwujigouService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/DiscusschongwufuwujigouService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/DiscusssiliaogoumaiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/DiscusssiliaogoumaiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/ForumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/ForumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/SiliaogoumaiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/SiliaogoumaiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/SiliaozhongleiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/SiliaozhongleiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/StoreupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/StoreupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/YonghuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/YonghuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/modules/layarea/layarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/modules/layarea/layarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/modules/tinymce/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/modules/tinymce/tinymce/tinymce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/modules/tinymce/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/modules/tinymce/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/chongwufuwujigou/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/chongwufuwujigou/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/forum/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/forum/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/home/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/home/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/news/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/news/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/news/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/news/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/front/pages/order/confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/front/pages/order/confirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/modules/defaultuser/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/modules/defaultuser/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/modules/forum/add-or-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/modules/forum/add-or-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/modules/forum/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/modules/forum/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/modules/yonghu/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/modules/yonghu/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/ChongwubaikeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/ChongwubaikeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/ForumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/YonghuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/YonghuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/ChongwubaikeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/ChongwubaikeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/ForumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/ForumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/YonghuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/WEB-INF/classes/com/controller/YonghuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/layui/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/layarea/layarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/layarea/layarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/tinymce/tinymce/tinymce.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/tinymce/tinymce/tinymce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/tinymce/tinymce/tinymce.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/modules/tinymce/tinymce/tinymce.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/chongwufuwujigou/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/chongwufuwujigou/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/forum/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/forum/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/home/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/home/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/news/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/news/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/news/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/news/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/order/confirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/front/pages/order/confirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/defaultuser/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/defaultuser/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/forum/add-or-update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/forum/add-or-update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/forum/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/forum/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/yonghu/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jspmzlh3z/jsp/modules/yonghu/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="7ea2b6d5-c178-4ce5-a520-7571aae6749b" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,30 +73,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project/jspmzlh3z&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8a0b9d00a1b5254d927b9f8ea55c5706&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/project/jspmzlh3z",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "8a0b9d00a1b5254d927b9f8ea55c5706",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\jspmzlh3z\src\main\webapp\upload" />
@@ -371,6 +206,7 @@
       <workItem from="1712541332902" duration="33778000" />
       <workItem from="1713498864638" duration="997000" />
       <workItem from="1713508636212" duration="5240000" />
+      <workItem from="1713777125639" duration="1477000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1712455769171</created>
