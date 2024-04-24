@@ -1,0 +1,18 @@
+server:
+  port: ${SERVER_PORT:8092}
+  servlet:
+    context-path: /jspmzlh3z
+spring:
+  servlet:
+    multipart:
+      max-file-size: 600MB
+      max-request-size: 600MB
+
+
+  datasource: #定义数据源
+    url: jdbc:mysql://127.0.0.1:3306/jspmzlh3z?serverTimezone=GMT%2B8&useSSL=FALSE
+    username: root
+    password: admin
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
