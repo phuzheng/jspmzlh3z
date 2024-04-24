@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 /target/
 /.idea/
+=======
+/.idea/
+/target/
+*.iml
+>>>>>>> jspmzlh3z/master_fuweibin
