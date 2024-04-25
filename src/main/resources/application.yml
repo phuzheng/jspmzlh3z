@@ -7,12 +7,16 @@ spring:
     multipart:
       max-file-size: 600MB
       max-request-size: 600MB
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
 
 
   datasource: #定义数据源
     url: jdbc:mysql://127.0.0.1:3306/jspmzlh3z?serverTimezone=GMT%2B8&useSSL=FALSE
     username: root
-    password: admin
+    password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
 
 
