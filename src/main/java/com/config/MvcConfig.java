@@ -20,11 +20,6 @@ public class MvcConfig implements WebMvcConfigurer {
     }
 
     @Override
-    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-        configurer.enable();
-    }
-
-    @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new AuthorizationInterceptor())
                 .addPathPatterns("/**")

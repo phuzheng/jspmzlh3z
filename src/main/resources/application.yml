@@ -5,6 +5,7 @@ server:
     encoding:
       charset: utf-8
       enabled: true
+    register-default-servlet: true
 spring:
   servlet:
     multipart:
@@ -16,8 +17,7 @@ spring:
     view:
       prefix: /WEB-INF/pages/
       suffix: .jsp
-
-
+    static-path-pattern: /**
 
 
   datasource: #定义数据源
