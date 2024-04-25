@@ -6,14 +6,6 @@
 
     <mvc:default-servlet-handler/>
 
-    <!-- 拦截器配置 -->
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/**"/>
-            <mvc:exclude-mapping path="/upload"/>
-            <bean class="com.interceptor.AuthorizationInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
 
     <!-- 上传限制 -->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
