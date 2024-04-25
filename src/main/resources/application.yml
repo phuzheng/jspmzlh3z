@@ -2,6 +2,9 @@ server:
   port: ${SERVER_PORT:8092}
   servlet:
     context-path: /jspmzlh3z
+    encoding:
+      charset: utf-8
+      enabled: true
 spring:
   servlet:
     multipart:
@@ -9,10 +12,13 @@ spring:
       max-request-size: 600MB
 
 
+
+
   datasource: #定义数据源
     url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/jspmzlh3z?serverTimezone=GMT%2B8&useSSL=FALSE}
     username: ${DB_USERNAME:root}
     password: ${DB_PASSWORD:admin}
     type: com.alibaba.druid.pool.DruidDataSource
+
 
 
