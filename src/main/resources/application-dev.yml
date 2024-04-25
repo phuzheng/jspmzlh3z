@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    host: localhost
+    port: 3306
+    database: jspmzlh3z
+    username: root
+    password: 123456

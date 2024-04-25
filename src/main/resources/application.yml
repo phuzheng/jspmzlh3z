@@ -3,6 +3,8 @@ server:
   servlet:
     context-path: /jspmzlh3z
 spring:
+  profiles:
+    active: dev
   servlet:
     multipart:
       max-file-size: 600MB
@@ -13,10 +15,14 @@ spring:
       suffix: .jsp
 
 
-  datasource: #定义数据源
-    url: jdbc:mysql://127.0.0.1:3306/jspmzlh3z?serverTimezone=GMT%2B8&useSSL=FALSE
-    username: root
-    password: 123456
-    type: com.alibaba.druid.pool.DruidDataSource
-
+#  datasource: #定义数据源
+#    url: jdbc:mysql://127.0.0.1:3306/jspmzlh3z?serverTimezone=GMT%2B8&useSSL=FALSE
+#    username: root
+#    password: 123456
+#    type: com.alibaba.druid.pool.DruidDataSource
+  datasource:
+    url: jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/${spring.datasource.database}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    type: ${spring.datasource.type}
 
